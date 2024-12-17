@@ -1,0 +1,103 @@
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+/* UTILITIES */
+.box-shadow {
+  box-shadow: 0 2px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+.active {
+  color: #e1323e !important;
+}
+
+.rounded-custom {
+  border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+}
+
+/* COLORS */
+.red-bg {
+  background-color: #ee626b;
+}
+
+/* NAVBAR */
+.signin {
+  border-radius: 20px;
+  transition: background-color 0.3s ease-in;
+}
+
+.signin:hover {
+  background-color: #e1323e;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* BANNER */
+.banner {
+  min-height: 130vh;
+  background-image: url("./images/banner-bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.banner .row {
+  min-height: 130vh;
+  padding-block: 120px;
+}
+
+.search-btn {
+  transition: background-color 0.3s ease-in;
+  z-index: 999;
+}
+
+.search-btn:hover {
+  background-color: #0171f9;
+}
+
+.form-control {
+  padding-right: 150px !important;
+}
+
+.price-tag {
+  top: 10px;
+  right: 10px;
+}
+
+.discount-tag {
+  bottom: 10px;
+  left: 10px;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 992px) {
+  .discount-tag {
+    bottom: -5% !important;
+    left: -5% !important;
+  }
+
+  .w-lg-75-custom {
+    width: 75% !important;
+  }
+
+  .navbar-collapse {
+    background-color: transparent !important;
+  }
+
+  .nav-link {
+    color: white !important;
+    border-radius: 20px !important;
+    transition: background-color 0.3s ease-in;
+  }
+
+  .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .active {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+  }
+}
