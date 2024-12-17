@@ -2,6 +2,11 @@ body {
   font-family: "Poppins", sans-serif !important;
 }
 
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
 /* UTILITIES */
 .box-shadow {
   box-shadow: 0 2px 5px 3px rgba(0, 0, 0, 0.2);
@@ -14,6 +19,10 @@ body {
 .rounded-custom {
   border-bottom-left-radius: 150px;
   border-bottom-right-radius: 150px;
+}
+
+.min-height-60vh {
+  min-height: 60vh;
 }
 
 /* COLORS */
@@ -35,15 +44,15 @@ body {
   box-shadow: none;
 }
 
-/* BANNER */
-.banner {
+/* MAIN-BANNER */
+.main-banner {
   min-height: 130vh;
   background-image: url("./images/banner-bg.jpg");
   background-position: center;
   background-size: cover;
 }
 
-.banner .row {
+.main-banner .row {
   min-height: 130vh;
   padding-block: 120px;
 }
@@ -71,8 +80,21 @@ body {
   left: 10px;
 }
 
+/* BANNER */
+.banner {
+  min-height: 60vh;
+  background-image: url("./images/page-heading-bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.banner .row {
+  padding-block: 100px;
+}
+
 /* MEDIA QUERIES */
 @media screen and (min-width: 992px) {
+  /* home page - HEADER */
   .discount-tag {
     bottom: -5% !important;
     left: -5% !important;
