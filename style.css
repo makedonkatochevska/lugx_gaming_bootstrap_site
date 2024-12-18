@@ -34,6 +34,10 @@ a {
   background-color: #ee626b;
 }
 
+.red-text {
+  color: #ee626b;
+}
+
 /* NAVBAR */
 .signin {
   border-radius: 20px;
@@ -61,13 +65,12 @@ a {
   padding-block: 120px;
 }
 
-.search-btn {
+.btn {
   transition: background-color 0.3s ease-in;
-  z-index: 999;
 }
 
-.search-btn:hover {
-  background-color: #0171f9;
+.btn:hover {
+  background-color: #0171f9 !important;
 }
 
 .form-control {
