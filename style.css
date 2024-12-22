@@ -1,3 +1,5 @@
+/* WHOLE PAGE STYLES */
+
 body {
   font-family: "Poppins", sans-serif !important;
 }
@@ -9,6 +11,10 @@ a {
 
 * {
   box-sizing: border-box !important;
+}
+
+h4 {
+  transition: color 0.3s ease-in;
 }
 
 /* UTILITIES */
@@ -23,6 +29,10 @@ a {
 .rounded-custom {
   border-bottom-left-radius: 150px;
   border-bottom-right-radius: 150px;
+}
+
+.rounded-custom-top-bottom {
+  border-radius: 150px;
 }
 
 .min-height-60vh {
@@ -110,7 +120,6 @@ a {
 }
 
 /* TRENDING SECTION */
-
 .trending-section .icon-container {
   height: 40px !important;
   width: 40px !important;
@@ -120,11 +129,20 @@ a {
   background-color: #0171f9 !important;
 }
 
-.trending-section h3 {
-  transition: color 0.3s ease-in;
+.trending-section .card:hover h3 {
+  color: #0171f9 !important;
 }
 
-.trending-section .card:hover h3 {
+/* MOST PLAYED */
+.most-played .btn {
+  margin-bottom: -50px;
+}
+
+.most-played .card:hover .btn {
+  background-color: #0171f9 !important;
+}
+
+.most-played .card:hover h4 {
   color: #0171f9 !important;
 }
 
