@@ -78,8 +78,8 @@ a {
 }
 
 .price-tag {
-  top: 10px;
-  right: 10px;
+  top: 15px;
+  right: 15px;
 }
 
 .discount-tag {
@@ -96,19 +96,36 @@ a {
   transition: background-color 0.3s ease-in;
 }
 
-.inner-section {
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: -100px;
+.features {
+  margin-top: -80px;
+  z-index: 99 !important;
 }
 
-.features .content-box {
+.features .card {
   cursor: pointer;
 }
 
-.features .content-box:hover .icon-container {
+.features .card:hover .icon-container {
   background-color: #ee626b !important;
+}
+
+/* TRENDING SECTION */
+
+.trending-section .icon-container {
+  height: 40px !important;
+  width: 40px !important;
+}
+
+.trending-section .card:hover .icon-container {
+  background-color: #0171f9 !important;
+}
+
+.trending-section h3 {
+  transition: color 0.3s ease-in;
+}
+
+.trending-section .card:hover h3 {
+  color: #0171f9 !important;
 }
 
 /* BANNER */
