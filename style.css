@@ -44,6 +44,13 @@ h4 {
   min-height: 60vh;
 }
 
+.navbar-scrolled {
+  background-color: #0171f9;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 0 2px 8px 5px rgba(0, 0, 0, 0.1);
+}
+
 /* COLORS */
 .red-bg {
   background-color: #ee626b;
@@ -65,6 +72,10 @@ h4 {
 
 .navbar-toggler:focus {
   box-shadow: none;
+}
+
+.navbar {
+  transition: all 0.5s;
 }
 
 /* MAIN-BANNER */
@@ -109,7 +120,7 @@ h4 {
 
 .features {
   margin-top: -80px;
-  z-index: 99 !important;
+  z-index: 1 !important;
 }
 
 .features .card {
