@@ -2,6 +2,7 @@
 
 body {
   font-family: "Poppins", sans-serif !important;
+  max-width: 100% !important;
 }
 
 a {
@@ -178,6 +179,13 @@ footer {
   padding-block: 100px;
 }
 
+/* -------------PRODUCT PAGE --------------- */
+
+.product-section .separator {
+  height: 1px;
+  background-color: rgb(236, 236, 236);
+}
+
 /* MEDIA QUERIES */
 @media screen and (min-width: 992px) {
   /* home page - HEADER */
@@ -235,5 +243,12 @@ footer {
 
   .cta-section {
     margin-top: 148px !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* PRODUCT PAGE */
+  .product-section .input-group {
+    width: 50% !important;
   }
 }
