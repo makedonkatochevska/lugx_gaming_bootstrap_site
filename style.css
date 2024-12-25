@@ -180,10 +180,15 @@ footer {
 }
 
 /* -------------PRODUCT PAGE --------------- */
-
 .product-section .separator {
   height: 1px;
   background-color: rgb(236, 236, 236);
+}
+
+.review-section button.active {
+  border: none !important;
+  background-color: transparent !important;
+  color: #0171f9 !important;
 }
 
 /* MEDIA QUERIES */
