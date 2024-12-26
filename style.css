@@ -191,6 +191,17 @@ footer {
   color: #0171f9 !important;
 }
 
+/* -------------CONTACT PAGE --------------- */
+.contact-section input:focus,
+.contact-section textarea:focus {
+  border: none !important;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.8) !important;
+}
+
+.contact-section textarea {
+  height: 20vh !important;
+}
+
 /* MEDIA QUERIES */
 @media screen and (min-width: 992px) {
   /* home page - HEADER */
