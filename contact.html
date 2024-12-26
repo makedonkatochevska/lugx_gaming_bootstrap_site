@@ -166,7 +166,7 @@
                   referrerpolicy="no-referrer-when-downgrade"
                 ></iframe>
               </div>
-              <form action="#">
+              <form action="#" id="form" novalidate>
                 <div class="row g-4">
                   <div class="col-12 col-lg-6">
                     <input
@@ -174,7 +174,9 @@
                       class="form-control bg-body-tertiary rounded-pill p-3"
                       placeholder="Your name.."
                       aria-label="First name"
+                      id="name"
                     />
+                    <div class="text-danger" id="name-error"></div>
                   </div>
                   <div class="col-12 col-lg-6">
                     <input
@@ -182,7 +184,9 @@
                       class="form-control bg-body-tertiary rounded-pill p-3"
                       placeholder="Your surname.."
                       aria-label="Last name"
+                      id="surname"
                     />
+                    <div class="text-danger" id="surname-error"></div>
                   </div>
                   <div class="col-12 col-lg-6">
                     <input
@@ -190,7 +194,9 @@
                       class="form-control bg-body-tertiary rounded-pill p-3"
                       placeholder="Your email.."
                       aria-label="Email"
+                      id="email"
                     />
+                    <div class="text-danger" id="email-error"></div>
                   </div>
                   <div class="col-12 col-lg-6">
                     <input
@@ -198,13 +204,17 @@
                       class="form-control bg-body-tertiary rounded-pill p-3"
                       placeholder="Subject.."
                       aria-label="Subject"
+                      id="subject"
                     />
+                    <div class="text-danger" id="subject-error"></div>
                   </div>
                   <div class="col-12">
                     <textarea
                       class="form-control bg-body-tertiary rounded-5 p-3"
                       placeholder="Your message.."
+                      id="message"
                     ></textarea>
+                    <div class="text-danger" id="message-error"></div>
                   </div>
                   <div class="col-9 col-md-6">
                     <button
