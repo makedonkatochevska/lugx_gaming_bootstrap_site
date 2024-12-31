@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset=" utf-8 " />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" type="image/png" href="./images/logo.png" />
+    <title>Shop - Lugx Gaming</title>
+    <!-- Google Font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Candal&family=DynaPuff:wght@400..700&family=Itim&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sriracha&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/6383af2146.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header>
+      <!-- NAVBAR -->
+      <div
+        class="nav-container bg-transparent py-3 rounded-5 rounded-top-0 position-absolute top-0 end-0 start-0 z-3"
+      >
+        <nav class="navbar navbar-expand-lg fixed-top py-2 z-5">
+          <div class="container">
+            <a href="index.html"
+              ><img src="./images/logo.png" alt="logo-img"
+            /></a>
+            <button
+              class="navbar-toggler border-0"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fas fa-bars text-white"></i>
+            </button>
+            <div
+              class="collapse navbar-collapse bg-light p-3 p-lg-0 rounded-5 rounded-top-0 rounded-lg-0 mt-2 mt-lg-0"
+              id="navbarNavDropdown"
+            >
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item me-4">
+                  <a
+                    class="nav-link text-body px-3"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item me-4">
+                  <a class="nav-link active text-body px-3" href="shop.html"
+                    >Our Shop</a
+                  >
+                </li>
+                <li class="nav-item me-4">
+                  <a class="nav-link text-body px-3" href="product.html"
+                    >Product Details</a
+                  >
+                </li>
+                <li class="nav-item me-4">
+                  <a class="nav-link text-body px-3" href="contact.html"
+                    >Contact Us</a
+                  >
+                </li>
+                <li class="nav-item signin red-bg">
+                  <a class="nav-link text-body px-3" href="index.html"
+                    >Sign In</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- BANNER -->
+      <section class="banner rounded-custom position-relative">
+        <div class="container">
+          <div class="row min-height-60vh text-center align-items-center">
+            <div class="col">
+              <h1 class="text-uppercase text-white fw-bold">our Shop</h1>
+              <p class="text-white mb-0">
+                <a href="index.html">Home</a> > Our Shop
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <!-- MAIN SECTION -->
+    <main>
+      <!-- SHOP ITEMS SECTION -->
+      <section class="shop-section py-5">
+        <div class="container py-5">
+          <div class="category-btn-box">
+            <ul class="list-unstyled d-flex justify-content-center flex-wrap">
+              <li class="me-3 mb-3 align-items-center">
+                <button
+                  class="category-btn is-active bg-body-secondary text-body text-uppercase fw-bold rounded-pill py-2 px-4 border-0"
+                  type="button"
+                >
+                  show all
+                </button>
+              </li>
+              <li class="me-3 mb-3 align-items-center">
+                <button
+                  class="category-btn bg-body-secondary text-body text-uppercase fw-bold rounded-pill py-2 px-4 border-0"
+                  type="button"
+                >
+                  action
+                </button>
+              </li>
+              <li class="me-3 mb-3 align-items-center">
+                <button
+                  class="category-btn bg-body-secondary text-body text-uppercase fw-bold rounded-pill py-2 px-4 border-0"
+                  type="button"
+                >
+                  adventure
+                </button>
+              </li>
+              <li class="mb-3 align-items-center">
+                <button
+                  class="category-btn bg-body-secondary text-body text-uppercase fw-bold rounded-pill py-2 px-4 border-0"
+                  type="button"
+                >
+                  strategy
+                </button>
+              </li>
+            </ul>
+          </div>
+
+          <!-- CARDS -->
+          <div class="row py-5 g-4 justify-content-evenly">
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="product.html">
+                <div class="card border-0 bg-body-secondary rounded-5">
+                  <div class="image-container position-relative">
+                    <img
+                      src="./images/brawhalla(action).png"
+                      class="card-img-top rounded-5"
+                      alt="trending game"
+                    />
+                    <div
+                      class="price-tag position-absolute bg-primary text-white py-1 px-3 rounded-4 text-center"
+                    >
+                      <s class="fs-6">$36</s>
+                      <p class="mb-0 fs-5">$24</p>
+                    </div>
+                  </div>
+                  <div class="row p-4 align-items-end">
+                    <div class="col-9">
+                      <p class="text-secondary mb-0 card-subtitle">Action</p>
+                      <h4 class="h6 fw-bold mb-0">Brawhalla</h4>
+                    </div>
+                    <div class="col-3">
+                      <span
+                        class="icon-container red-bg d-flex justify-content-center align-items-center rounded-circle"
+                      >
+                        <i class="fas fa-shopping-bag text-white"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="product.html">
+                <div class="card border-0 bg-body-secondary rounded-5">
+                  <div class="image-container position-relative">
+                    <img
+                      src="./images/ageofwonders(strategy).png"
+                      class="card-img-top rounded-5"
+                      alt="trending game"
+                    />
+                    <div
+                      class="price-tag position-absolute bg-primary text-white py-1 px-3 rounded-4 text-center"
+                    >
+                      <s class="fs-6">$32</s>
+                      <p class="mb-0 fs-5">$22</p>
+                    </div>
+                  </div>
+                  <div class="row p-4 align-items-end">
+                    <div class="col-9">
+                      <p class="text-secondary mb-0 card-subtitle">Strategy</p>
+                      <h4 class="h6 fw-bold mb-0">AgeOfWonders</h4>
+                    </div>
+                    <div class="col-3">
+                      <span
+                        class="icon-container red-bg d-flex justify-content-center align-items-center rounded-circle"
+                      >
+                        <i class="fas fa-shopping-bag text-white"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="product.html">
+                <div class="card border-0 bg-body-secondary rounded-5">
+                  <div class="image-container position-relative">
+                    <img
+                      src="./images/apex(action, strategy).png"
+                      class="card-img-top rounded-5"
+                      alt="trending game"
+                    />
+                    <div
+                      class="price-tag position-absolute bg-primary text-white py-1 px-3 rounded-4 text-center"
+                    >
+                      <s class="fs-6">$45</s>
+                      <p class="mb-0 fs-5">$30</p>
+                    </div>
+                  </div>
+                  <div class="row p-4 align-items-end">
+                    <div class="col-9">
+                      <p class="text-secondary mb-0 card-subtitle">
+                        Action, Strategy
+                      </p>
+                      <h4 class="h6 fw-bold mb-0">Apex</h4>
+                    </div>
+                    <div class="col-3">
+                      <span
+                        class="icon-container red-bg d-flex justify-content-center align-items-center rounded-circle"
+                      >
+                        <i class="fas fa-shopping-bag text-white"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="product.html">
+                <div class="card border-0 bg-body-secondary rounded-5">
+                  <div class="image-container position-relative">
+                    <img
+                      src="./images/warhammer(action).png"
+                      class="card-img-top rounded-5"
+                      alt="trending game"
+                    />
+                    <div
+                      class="price-tag position-absolute bg-primary text-white py-1 px-3 rounded-4 text-center"
+                    >
+                      <s class="fs-6">$32</s>
+                      <p class="mb-0 fs-5">$22</p>
+                    </div>
+                  </div>
+                  <div class="row p-4 align-items-end">
+                    <div class="col-9">
+                      <p class="text-secondary mb-0 card-subtitle">Action</p>
+                      <h4 class="h6 fw-bold mb-0">Warhammer</h4>
+                    </div>
+                    <div class="col-3">
+                      <span
+                        class="icon-container red-bg d-flex justify-content-center align-items-center rounded-circle"
+                      >
+                        <i class="fas fa-shopping-bag text-white"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="product.html">
+                <div class="card border-0 bg-body-secondary rounded-5">
+                  <div class="image-container position-relative">
+                    <img
+                      src="./images/towerfantasy(adventure, action).jpg"
+                      class="card-img-top rounded-5"
+                      alt="trending game"
+                    />
+                    <div
+                      class="price-tag position-absolute bg-primary text-white py-1 px-3 rounded-4 text-center"
+                    >
+                      <s class="fs-6">$38</s>
+                      <p class="mb-0 fs-5">$26</p>
+                    </div>
+                  </div>
+                  <div class="row p-4 align-items-end">
+                    <div class="col-9">
+                      <p class="text-secondary mb-0 card-subtitle">
+                        Adventure, Action
+                      </p>
+                      <h4 class="h6 fw-bold mb-0">TowerFantasy</h4>
+                    </div>
+                    <div class="col-3">
+                      <span
+                        class="icon-container red-bg d-flex justify-content-center align-items-center rounded-circle"
+                      >
+                        <i class="fas fa-shopping-bag text-white"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="product.html">
+                <div class="card border-0 bg-body-secondary rounded-5">
+                  <div class="image-container position-relative">
+                    <img
+                      src="./images/thewitcher(adventure).png"
+                      class="card-img-top rounded-5"
+                      alt="trending game"
+                    />
+                    <div
+                      class="price-tag position-absolute bg-primary text-white py-1 px-3 rounded-4 text-center"
+                    >
+                      <s class="fs-6">$30</s>
+                      <p class="mb-0 fs-5">$20</p>
+                    </div>
+                  </div>
+                  <div class="row p-4 align-items-end">
+                    <div class="col-9">
+                      <p class="text-secondary mb-0 card-subtitle">Adventure</p>
+                      <h4 class="h6 fw-bold mb-0">TheWitcher</h4>
+                    </div>
+                    <div class="col-3">
+                      <span
+                        class="icon-container red-bg d-flex justify-content-center align-items-center rounded-circle"
+                      >
+                        <i class="fas fa-shopping-bag text-white"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="product.html">
+                <div class="card border-0 bg-body-secondary rounded-5">
+                  <div class="image-container position-relative">
+                    <img
+                      src="./images/super_people(action).jpg"
+                      class="card-img-top rounded-5"
+                      alt="trending game"
+                    />
+                    <div
+                      class="price-tag position-absolute bg-primary text-white py-1 px-3 rounded-4 text-center"
+                    >
+                      <s class="fs-6">$32</s>
+                      <p class="mb-0 fs-5">$22</p>
+                    </div>
+                  </div>
+                  <div class="row p-4 align-items-end">
+                    <div class="col-9">
+                      <p class="text-secondary mb-0 card-subtitle">Action</p>
+                      <h4 class="h6 fw-bold mb-0">SuperPeople</h4>
+                    </div>
+                    <div class="col-3">
+                      <span
+                        class="icon-container red-bg d-flex justify-content-center align-items-center rounded-circle"
+                      >
+                        <i class="fas fa-shopping-bag text-white"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="product.html">
+                <div class="card border-0 bg-body-secondary rounded-5">
+                  <div class="image-container position-relative">
+                    <img
+                      src="./images/hogwards(adventure).png"
+                      class="card-img-top rounded-5"
+                      alt="trending game"
+                    />
+                    <div
+                      class="price-tag position-absolute bg-primary text-white py-1 px-3 rounded-4 text-center"
+                    >
+                      <s class="fs-6">$48</s>
+                      <p class="mb-0 fs-5">$34</p>
+                    </div>
+                  </div>
+                  <div class="row p-4 align-items-end">
+                    <div class="col-9">
+                      <p class="text-secondary mb-0 card-subtitle">Adventure</p>
+                      <h4 class="h6 fw-bold mb-0">Hogwards</h4>
+                    </div>
+                    <div class="col-3">
+                      <span
+                        class="icon-container red-bg d-flex justify-content-center align-items-center rounded-circle"
+                      >
+                        <i class="fas fa-shopping-bag text-white"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="product.html">
+                <div class="card border-0 bg-body-secondary rounded-5">
+                  <div class="image-container position-relative">
+                    <img
+                      src="./images/call_of_duty(action, strategy).jpg"
+                      class="card-img-top rounded-5"
+                      alt="trending game"
+                    />
+                    <div
+                      class="price-tag position-absolute bg-primary text-white py-1 px-3 rounded-4 text-center"
+                    >
+                      <s class="fs-6">$40</s>
+                      <p class="mb-0 fs-5">$32</p>
+                    </div>
+                  </div>
+                  <div class="row p-4 align-items-end">
+                    <div class="col-9">
+                      <p class="text-secondary mb-0 card-subtitle">
+                        Action, Strategy
+                      </p>
+                      <h4 class="h6 fw-bold mb-0">CallOfDuty</h4>
+                    </div>
+                    <div class="col-3">
+                      <span
+                        class="icon-container red-bg d-flex justify-content-center align-items-center rounded-circle"
+                      >
+                        <i class="fas fa-shopping-bag text-white"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="product.html">
+                <div class="card border-0 bg-body-secondary rounded-5">
+                  <div class="image-container position-relative">
+                    <img
+                      src="./images/destiny y2(adventure, strategy).jpg"
+                      class="card-img-top rounded-5"
+                      alt="trending game"
+                    />
+                    <div
+                      class="price-tag position-absolute bg-primary text-white py-1 px-3 rounded-4 text-center"
+                    >
+                      <s class="fs-6">$55</s>
+                      <p class="mb-0 fs-5">$38</p>
+                    </div>
+                  </div>
+                  <div class="row p-4 align-items-end">
+                    <div class="col-9">
+                      <p class="text-secondary mb-0 card-subtitle">
+                        Adventure, Strategy
+                      </p>
+                      <h4 class="h6 fw-bold mb-0">Destiny</h4>
+                    </div>
+                    <div class="col-3">
+                      <span
+                        class="icon-container red-bg d-flex justify-content-center align-items-center rounded-circle"
+                      >
+                        <i class="fas fa-shopping-bag text-white"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="product.html">
+                <div class="card border-0 bg-body-secondary rounded-5">
+                  <div class="image-container position-relative">
+                    <img
+                      src="./images/sims(strategy, adventure).jpg"
+                      class="card-img-top rounded-5"
+                      alt="trending game"
+                    />
+                    <div
+                      class="price-tag position-absolute bg-primary text-white py-1 px-3 rounded-4 text-center"
+                    >
+                      <s class="fs-6">$50</s>
+                      <p class="mb-0 fs-5">$34</p>
+                    </div>
+                  </div>
+                  <div class="row p-4 align-items-end">
+                    <div class="col-9">
+                      <p class="text-secondary mb-0 card-subtitle">
+                        Adventure, Strategy
+                      </p>
+                      <h4 class="h6 fw-bold mb-0">TheSims</h4>
+                    </div>
+                    <div class="col-3">
+                      <span
+                        class="icon-container red-bg d-flex justify-content-center align-items-center rounded-circle"
+                      >
+                        <i class="fas fa-shopping-bag text-white"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="product.html">
+                <div class="card border-0 bg-body-secondary rounded-5">
+                  <div class="image-container position-relative">
+                    <img
+                      src="./images/pung(action).jpg"
+                      class="card-img-top rounded-5"
+                      alt="trending game"
+                    />
+                    <div
+                      class="price-tag position-absolute bg-primary text-white py-1 px-3 rounded-4 text-center"
+                    >
+                      <s class="fs-6">$25</s>
+                      <p class="mb-0 fs-5">$18</p>
+                    </div>
+                  </div>
+                  <div class="row p-4 align-items-end">
+                    <div class="col-9">
+                      <p class="text-secondary mb-0 card-subtitle">Action</p>
+                      <h4 class="h6 fw-bold mb-0">PUBG</h4>
+                    </div>
+                    <div class="col-3">
+                      <span
+                        class="icon-container red-bg d-flex justify-content-center align-items-center rounded-circle"
+                      >
+                        <i class="fas fa-shopping-bag text-white"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="mt-5 py-5 rounded-custom-top">
+      <div class="container text-center">
+        <p class="mb-0 text-white">
+          Copyright © 2048 LUGX Gaming Company. All rights reserved. &nbsp;
+          Design:
+          <a href="https://templatemo.com/">TemplateMo</a>. <br />
+          Recreated by:
+          <a href="https://www.linkedin.com/in/makedonka-tochevska/"
+            >Makedonka Tochevska</a
+          >
+        </p>
+      </div>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- CUSTOM JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
